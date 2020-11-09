@@ -155,9 +155,9 @@ void draw(){
     println("pressing UP");
     robot.keyPress(KeyEvent.VK_UP);
     }
-    //else if (upKey == 0){
-    //robot.keyRelease(KeyEvent.VK_UP);  
-    //}
+    else if (upKey == 0){
+    robot.keyRelease(KeyEvent.VK_UP);  
+    }
 
     if (rightKey == 1) {
     println("pressing RIGHT");
